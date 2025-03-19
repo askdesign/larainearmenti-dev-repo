@@ -13,3 +13,102 @@ Text Domain: kadence-child-larainearmenti
 
 /* Theme customization starts here
 -------------------------------------------------------------- */
+
+/* --- header --- */
+.site-branding .site-description {
+    letter-spacing: 0;
+
+}
+
+/* --- footer --- */
+.site-bottom-footer-wrap .site-footer-row-container-inner {
+	font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--global-palette7);
+}
+
+#colophon .site-footer-row-container .site-footer-row .footer-html a {
+    color: #888;
+}
+/* --- interior page width --- */
+.content-width-narrow .content-container.site-container, .content-width-narrow .hero-container.site-container {
+
+}
+
+/* --- pages --- */
+
+/* --- heads --- */
+
+/* --- page titles --- */
+.page-title, .single-content h1 {
+  margin-bottom: 1.25rem;
+	padding-bottom: 1.25rem;
+	border-bottom: 1px solid #c5c5c5;
+	text-align: left;
+}
+
+
+/* --- home features --- */
+.home .single-content h4 {
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+
+
+/* --- blog --- */
+#archive-container.grid-cols {
+    row-gap: 5rem;
+}
+
+.loop-entry.type-post h2.entry-title {
+    color: var(--global-palette-highlight);
+}
+
+/* --- dividers --- */
+.kt-block-spacer .kt-divider {
+    margin-top: -1rem;
+}
+
+/* --- images --- */
+.wp-block-image .alignleft {
+    margin-right: 1.5rem;
+}
+
+:where(.wp-block-columns.is-layout-flex) {
+    gap: 1rem;
+}
+
+/* --- lists --- */
+.list-xtra-space ul > li {
+	margin-bottom: 26px;
+}
+
+/* --- galleries --- */
+.kb-gallery-type-grid.kb-gallery-id-4407_00c0af-3b .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-13209_b3c3f6-4d .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-13209_18c0f9-d8 .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-13209_0ac76c-f9 .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-23860_e6ea10-b5 .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-23603_574c80-4e .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-23561_53070e-7c .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-23524_aca0d1-47 .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-23464_f6b900-02 .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-23449_40a7de-71 .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-16265_923939-36 .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-16265_f5e4b4-52 .kadence-blocks-gallery-item {
+    padding: 55px;
+    padding-bottom: 0;
+}
+
+/* --- last-child didn't work with all galleries; if not here, I added padding-bottom to row div --- */
+.kb-gallery-type-grid.kb-gallery-id-4407_00c0af-3b .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-13209_b3c3f6-4d .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-13209_18c0f9-d8 .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-23860_e6ea10-b5 .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-23449_40a7de-71 .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-16265_923939-36 .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-16265_f5e4b4-52 .kadence-blocks-gallery-item:last-child {
+    padding-bottom: 55px;
+}
