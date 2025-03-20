@@ -31,10 +31,6 @@ Text Domain: kadence-child-larainearmenti
 #colophon .site-footer-row-container .site-footer-row .footer-html a {
     color: #888;
 }
-/* --- interior page width --- */
-.content-width-narrow .content-container.site-container, .content-width-narrow .hero-container.site-container {
-
-}
 
 /* --- pages --- */
 
@@ -86,7 +82,15 @@ Text Domain: kadence-child-larainearmenti
 }
 
 /* --- galleries --- */
-.kb-gallery-type-grid.kb-gallery-id-4407_00c0af-3b .kadence-blocks-gallery-item,
+/* --- list item is wip 
+.3colgal .wp-block-kadence-advancedgallery > .kb-gallery-ul ul > li.kadence-blocks-gallery-item {
+	  padding: 55px;
+    padding-bottom: 0;
+}
+--- */
+
+/* --- gallery no sections --- */
+.kb-gallery-type-grid.kb-gallery-id-4407_0e2de3-47 .kadence-blocks-gallery-item,
 .kb-gallery-type-grid.kb-gallery-id-13209_b3c3f6-4d .kadence-blocks-gallery-item,
 .kb-gallery-type-grid.kb-gallery-id-13209_18c0f9-d8 .kadence-blocks-gallery-item,
 .kb-gallery-type-grid.kb-gallery-id-13209_0ac76c-f9 .kadence-blocks-gallery-item,
@@ -96,18 +100,25 @@ Text Domain: kadence-child-larainearmenti
 .kb-gallery-type-grid.kb-gallery-id-23524_aca0d1-47 .kadence-blocks-gallery-item,
 .kb-gallery-type-grid.kb-gallery-id-23464_f6b900-02 .kadence-blocks-gallery-item,
 .kb-gallery-type-grid.kb-gallery-id-23449_40a7de-71 .kadence-blocks-gallery-item,
+.kb-gallery-type-grid.kb-gallery-id-23438_eaa6cc-1f .kadence-blocks-gallery-item,
 .kb-gallery-type-grid.kb-gallery-id-16265_923939-36 .kadence-blocks-gallery-item,
 .kb-gallery-type-grid.kb-gallery-id-16265_f5e4b4-52 .kadence-blocks-gallery-item {
-    padding: 55px;
+	padding: 55px;
     padding-bottom: 0;
 }
 
-/* --- last-child didn't work with all galleries; if not here, I added padding-bottom to row div --- */
-.kb-gallery-type-grid.kb-gallery-id-4407_00c0af-3b .kadence-blocks-gallery-item:last-child,
+/* --- gallery no sections --- */
+.kb-gallery-type-grid.kb-gallery-id-4407_0e2de3-47 .kadence-blocks-gallery-item:last-child,
 .kb-gallery-type-grid.kb-gallery-id-13209_b3c3f6-4d .kadence-blocks-gallery-item:last-child,
 .kb-gallery-type-grid.kb-gallery-id-13209_18c0f9-d8 .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-13209_0ac76c-f9 .kadence-blocks-gallery-item:last-child,
 .kb-gallery-type-grid.kb-gallery-id-23860_e6ea10-b5 .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-23603_574c80-4e .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-23561_53070e-7c .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-23524_aca0d1-47 .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-23464_f6b900-02 .kadence-blocks-gallery-item:last-child,
 .kb-gallery-type-grid.kb-gallery-id-23449_40a7de-71 .kadence-blocks-gallery-item:last-child,
+.kb-gallery-type-grid.kb-gallery-id-23438_eaa6cc-1f .kadence-blocks-gallery-item:last-child,
 .kb-gallery-type-grid.kb-gallery-id-16265_923939-36 .kadence-blocks-gallery-item:last-child,
 .kb-gallery-type-grid.kb-gallery-id-16265_f5e4b4-52 .kadence-blocks-gallery-item:last-child {
     padding-bottom: 55px;
