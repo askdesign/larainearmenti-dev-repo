@@ -14,6 +14,8 @@ Text Domain: kadence-child-larainearmenti
 /* Theme customization starts here
 -------------------------------------------------------------- */
 
+/* --- Additional CSS --- */
+
 /* --- header --- */
 .site-branding .site-description {
     letter-spacing: 0;
@@ -22,7 +24,7 @@ Text Domain: kadence-child-larainearmenti
 
 /* --- footer --- */
 .site-bottom-footer-wrap .site-footer-row-container-inner {
-	font-size: 14px;
+    font-size: 14px;
   font-style: normal;
   font-weight: 400;
   color: var(--global-palette7);
@@ -38,28 +40,10 @@ Text Domain: kadence-child-larainearmenti
 
 /* --- page titles --- */
 .page-title, .single-content h1 {
-  margin-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
 	padding-bottom: 1.25rem;
 	border-bottom: 1px solid #c5c5c5;
 	text-align: left;
-}
-
-
-/* --- home features --- */
-.home .single-content h4 {
-	font-size: 1rem;
-	margin-bottom: 20px;
-}
-
-
-
-/* --- blog --- */
-#archive-container.grid-cols {
-    row-gap: 5rem;
-}
-
-.loop-entry.type-post h2.entry-title {
-    color: var(--global-palette-highlight);
 }
 
 /* --- dividers --- */
@@ -72,22 +56,27 @@ Text Domain: kadence-child-larainearmenti
     margin-right: 1.5rem;
 }
 
-:where(.wp-block-columns.is-layout-flex) {
-    gap: 1rem;
+/* --- blog --- */
+
+.loop-entry.type-post h2.entry-title {
+    color: var(--global-palette-highlight);
 }
 
-/* --- lists --- */
-.list-xtra-space ul > li {
-	margin-bottom: 26px;
+a.post-more-link {
+	color: var(--global-palette-highlight);
 }
+
+.entry-meta {
+    font-size: .75rem;
+      text-transform: uppercase;
+  }
+  
+  .entry-taxonomies {
+     font-size: .625rem;
+  }
+  
 
 /* --- galleries --- */
-/* --- list item is wip 
-.3colgal .wp-block-kadence-advancedgallery > .kb-gallery-ul ul > li.kadence-blocks-gallery-item {
-	  padding: 55px;
-    padding-bottom: 0;
-}
---- */
 
 /* --- gallery no sections --- */
 .kb-gallery-type-grid.kb-gallery-id-4407_0e2de3-47 .kadence-blocks-gallery-item,
@@ -122,4 +111,27 @@ Text Domain: kadence-child-larainearmenti
 .kb-gallery-type-grid.kb-gallery-id-16265_923939-36 .kadence-blocks-gallery-item:last-child,
 .kb-gallery-type-grid.kb-gallery-id-16265_f5e4b4-52 .kadence-blocks-gallery-item:last-child {
     padding-bottom: 55px;
+}
+
+/* --- STYLESHEET ONLY --- */
+
+/* --- home features --- */
+.home .single-content h4 {
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+/* --- blog --- */
+#archive-container.grid-cols {
+    row-gap: 5rem;
+}
+
+
+:where(.wp-block-columns.is-layout-flex) {
+    gap: 1rem;
+}
+
+/* --- lists --- */
+.list-xtra-space ul > li {
+	margin-bottom: 26px;
 }
