@@ -19,15 +19,14 @@ Text Domain: kadence-child-larainearmenti
 /* --- header --- */
 .site-branding .site-description {
     letter-spacing: 0;
-
 }
 
 /* --- footer --- */
 .site-bottom-footer-wrap .site-footer-row-container-inner {
     font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  color: var(--global-palette7);
+    font-style: normal;
+    font-weight: 400;
+    color: var(--global-palette7);
 }
 
 #colophon .site-footer-row-container .site-footer-row .footer-html a {
@@ -68,7 +67,7 @@ a.post-more-link {
 
 .entry-meta {
     font-size: .75rem;
-      text-transform: uppercase;
+    text-transform: uppercase;
   }
   
   .entry-taxonomies {
