@@ -125,9 +125,14 @@ a.post-more-link {
     row-gap: 5rem;
 }
 
-
 :where(.wp-block-columns.is-layout-flex) {
     gap: 1rem;
+}
+
+/* --- galleries --- */
+
+a.desc-more {
+	color:#b27aff;
 }
 
 /* --- lists --- */
