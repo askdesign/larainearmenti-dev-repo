@@ -112,6 +112,22 @@ a.post-more-link {
     padding-bottom: 55px;
 }
 
+/* --- Mobile Nav --- */
+.popup-drawer .drawer-content.content-align-center {
+    text-align: left;
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media (max-width: 599px) {
+.site-branding {
+    padding: 14px 0px;
+    text-align: center;
+    }
+}
+
+
+
 /* --- STYLESHEET ONLY --- */
 
 /* --- home features --- */
